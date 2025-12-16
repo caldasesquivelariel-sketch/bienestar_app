@@ -142,10 +142,3 @@ if st.button("🔍 Evaluar mi Bienestar"):
 # Pie de página
 st.divider()
 st.caption("Prototipo educativo – Bienestar Integral Adolescente 🌱")
-
-
-    st.write(f"⭐ Puntaje final: **{bienestar_total:.1f} / 10**")
-    st.markdown('</div>', unsafe_allow_html=True)
-
-# -------- PIE --------
-st.markdown('<div class="footer">Prototipo educativo – Bienestar Integral Adolescente 🌱</div>', unsafe_allow_html=True)
